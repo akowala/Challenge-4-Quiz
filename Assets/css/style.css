@@ -41,23 +41,25 @@ h2 {
     text-align: center;
 }
 
-/* when you hover over buttons it turns green */
+/* when you hover over buttons it turns cyan */
 button:hover {
     background-color:cyan;
 }
 
 #final-screen p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #initials {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
+/* timer color */
 .time,
 #timer {
     color: coral;
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .hidden {
@@ -66,17 +68,40 @@ button:hover {
 
 #new-question {
     font-size: 30px;
-    color: red;
+    font-weight: bolder;
+    color: rgb(40, 196, 45);
     margin-bottom: 10px;
 }
 
 button,
 .option {
     background-color: whitesmoke;
-    color: red;
+    color: rgb(226, 144, 144);
     padding: 10px 10px;
     font-size: 10px;
     font-weight: bolder;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grade {
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:chartreuse
+}
+
+a:hover {
+    color: aqua;
 }
