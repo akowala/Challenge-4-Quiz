@@ -1,28 +1,19 @@
-/* added complimentary colors to the site */
-
-:root {
-    --gray: #808080;
-    --purple: #934aba;
-    --green: #d3ffaa;
-    --orange: #fcc271;
-
-}
-
 body {
-    background-color: var(--gray);
+    background-color:gray;
     color: white;
 }
 
 h1 {
     font-size: 30px;
+    font-weight: bold;
     margin-bottom: 15px;
-    color: var(--green)
+    color:lawngreen;
 
 }
 
 h2 {
     font-size: 20px;
-    color: var(--purple);
+    color:cornflowerblue;
 }
 
 .nav {
@@ -52,5 +43,40 @@ h2 {
 
 /* when you hover over buttons it turns green */
 button:hover {
-    background-color: var(--green);
+    background-color:cyan;
+}
+
+#final-screen p {
+    font-size: 20px;
+}
+
+#initials {
+    margin-bottom: 10px;
+}
+
+.time,
+#timer {
+    color: coral;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#new-question {
+    font-size: 30px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+button,
+.option {
+    background-color: whitesmoke;
+    color: red;
+    padding: 10px 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
 }
