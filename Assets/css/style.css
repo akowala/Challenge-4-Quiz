@@ -33,11 +33,24 @@ h2 {
 
 }
 
+/* added line height so the paragraph doesn't look too congested */
+.main p {
+    width: 300px;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 150px;
     text-align: center;
+}
+
+/* when you hover over buttons it turns green */
+button:hover {
+    background-color: var(--green);
 }
