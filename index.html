@@ -4,14 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript Coding Quiz</title>
     <link rel="reset stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
-    
+
+    <header>
+        <nav class="nav" id="nav">
+            <a href="./highscores.html" id="high-scores">View Highscores</a>
+            <p class="time">Time: <span id="timer">0</span></p>
+        </nav>
+    </header>
+
+        <main class="main">
+            <section id="start">
+                <h1 id="title">Javascript Coding Quiz </h1>
+                <p>
+                    Welcome! You have 100 seconds to answer 7 questions on this JavaScript quiz. 
+                    If you get an answer wrong, you will lose time. Your final score is based on the time remaining when you reach the end. Good luck!
+                </p>
+                <button id="start-button">Start</button>
+            </section>
+       
+            <div id="questions-section" class="hidden">
+                <h3 id="new-question"></h3>
+                <div class="options-list" id="options-list"></div>
+            </div>
+         
+            <div id="final-screen" class="hidden">
+                <h3>All done!</h3>
+                <p>
+                    Final score: <span id="score"></span>
+                </p>
+                <p>Save your score here!</p>
+                <p>
+                    Please enter your initials: <input type="text" id="initials">
+                    <button id="save-score">Save Score</button>
+                </p>
+                <a href="./index.html" id="back-button">Go Back</a>
+            </div>
+
+            <div id="grade" class="grade hidden"></div>
+
+        </main>
 
 
     <script src="./Assets/js/script.js"></script>
+    <script src="./Assets/js/questions.js"></script>
 </body>
 </html>
