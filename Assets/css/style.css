@@ -1,0 +1,43 @@
+/* added complimentary colors to the site */
+
+:root {
+    --gray: #808080;
+    --purple: #934aba;
+    --green: #d3ffaa;
+    --orange: #fcc271;
+
+}
+
+body {
+    background-color: var(--gray);
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: var(--green)
+
+}
+
+h2 {
+    font-size: 20px;
+    color: var(--purple);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+}
