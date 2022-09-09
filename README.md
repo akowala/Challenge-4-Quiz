@@ -7,6 +7,6 @@ In this challenge, we had to use our Javascript skills to construct a quiz.
 https://akowala.github.io/Challenge-4-Quiz/index.html
 
 ## Screenshots
-![](Assets/images/beginning%20of%20website.png)
-![](Assets/images/website%20questions.png)
-![](Assets/images/end%20website.png)
+![](Assets/images/beginning.png)
+![](Assets/images/middle.png)
+![](Assets/images/end.png)
